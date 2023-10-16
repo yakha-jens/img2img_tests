@@ -1,0 +1,41 @@
+- Positive prompt:
+artwork of an caucasian man, buzzcut hair, glasses, black wristwatch, office background, sharp focus, bokeh 
+
+- Negative prompt: 
+easynegative, full body, perfect figure, slim, muscular, photo, realistic, watermark, signature 
+
+- Steps: 25, 
+- Seed: 3536998157, 
+- Sampler: Euler a, 
+- CFG scale: 6, 
+- Size: 512x768, 
+- Parser: Full parser, 
+- VAE: anythingKlF8Anime2VaeFtMse840000_klF8Anime2, 
+- Backend: Original, 
+- Version: 98bf24d, 
+- Operations: img2img, 
+- Init image size: 1320x1814, 
+- Init image hash: 00d16e55, 
+- Resize mode: 2, 
+- Denoising strength: 0.5, 
+
+- Script: X/Y/Z Grid, 
+
+- X Type: Sampler, X Values: 
+- "Euler a,
+- DPM++ 2S a Karras,
+- DPM++ 2M Karras,
+- DPM++ SDE Karras,
+- DPM++ 2M SDE Karras,
+- DPM++ 3M SDE Karras", 
+
+- Z Type: Checkpoint name, Z Values: 
+- "CheckpointYesmix_v30.safetensors [bcef08bd0c],
+- aingdiffusion_v105.safetensors [6ba2dfa7d7],
+- divineelegancemix_V7.safetensors [b7d82b6842],
+- eraEstheticRetroAnime_retroV40VAE.safetensors [d5e5e0ef98],
+- flat2DAnimerge_v30.safetensors [5dd56bfa12],
+- meinamix_meinaV11.safetensors [54ef3e3610],
+- realcartoonAnime_v5.safetensors [75d32966d0],
+- revAnimated_v122.safetensors [4199bcdd14],
+- toonyou_beta6.safetensors [e8d456c42e]"
